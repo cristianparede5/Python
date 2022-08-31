@@ -9,12 +9,14 @@ numeroA=0.0;
 numeroB=0.0;
 
 #Codigo
-#Números 'A' y 'B' a restar
-numeroA=float(input('Diga el número ''A'' a restar:'))
-numeroB=float(input('Diga en número ''B'' a restar:'))
+#Números 'A' y 'B' a dividir
+numeroA=float(input('Diga el número ''A'' a dividir:'))
+numeroB=float(input('Diga en número ''B'' a dividir:'))
 
 #Cuenta
-resta=numeroA-numeroB;
+division=numeroA/numeroB;
+resto=numeroA%numeroB;
 
-#Muestra a
-print('la resta es de: ', resta)
+#Se muestra por pantalla el resultado de la division y el resto
+print('El resultado es: ',division)
+print('El resto es: ', resto)
